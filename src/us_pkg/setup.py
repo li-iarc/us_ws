@@ -25,6 +25,7 @@ setup(
             'us_receiver_node = us_pkg.us_receiver_node:main',
             'us_drawline_node = us_pkg.us_drawline_node:main',
             'us_colorbox_node = us_pkg.us_colorbox_node:main',
+            'us_datalog_node = us_pkg.us_datalog_node:main',
         ],
     },
 )
