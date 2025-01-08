@@ -39,34 +39,21 @@ class SensorDataVisualizer(Node):
     def plot_data(self):
         self.ax.clear()
 
-        # 繪製大矩形
+        # 繪製矩形
         self.ax.add_patch(plt.Rectangle((0, 0), self.rect_width, self.rect_height, fill=False))
 
-        # 定義四個角落的位置 (對調 sensor2 和 sensor3 的位置)
-        positions = [(0, self.rect_height, 'S1'),
-                    (0, 0, 'S2'),  # sensor2 和 sensor3 對調
-                    (self.rect_width, self.rect_height, 'S3'),
-                    (self.rect_width, 0, 'S4')]
-
-        # 顯示感測器值並繪製小矩形
-        for i, (x, y, label) in enumerate(positions):
+        # 顯示感測器值在四個角落，並根據距離變更顏色
+        for i, (x, y, label) in enumerate([(0, self.rect_height, 'S1'),
+                                            (0, 0, 'S2'),
+                                            (self.rect_width, self.rect_height, 'S3'),
+                                            (self.rect_width, 0, 'S4')]):
             distance = self.sensor_values[i]
             color = self.get_color(distance)
-
-            # 計算小矩形的左下角位置，使其完全位於大矩形內
-            small_rect_x = x - self.small_rect_size / 2 if x == 0 else x - self.small_rect_size
-            small_rect_y = y - self.small_rect_size / 2 if y == 0 else y - self.small_rect_size
-
-            # 繪製小矩形
-            self.ax.add_patch(plt.Rectangle((small_rect_x, small_rect_y),
-                                            self.small_rect_size,
-                                            self.small_rect_size,
-                                            color=color))
-
-            # 顯示感測器值
-            self.ax.text(x, y - (15 if y == 0 else -5),  # 調整字的位置
-                        f"{label}: {distance:.1f} mm",
-                        ha='center', va='center', color=color, fontsize=15)
+            va_option = 'bottom' if y == self.rect_height else 'top'
+            self.ax.text(x, y - 2 if va_option == 'top' else y + 2,  # 調整 y 方向的位置
+                         f"{label}: {distance:.1f} mm",
+                         ha='left' if x == 0 else 'right', va=va_option,
+                         color=color, fontsize=15)
 
         # 設定坐標範圍
         self.ax.set_xlim(-10, self.rect_width + 10)
@@ -76,7 +63,6 @@ class SensorDataVisualizer(Node):
         # 顯示圖形
         plt.draw()
         plt.pause(0.01)
-
 
     def get_color(self, distance):
         """

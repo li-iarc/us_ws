@@ -14,5 +14,6 @@ test/test_flake8.py
 test/test_pep257.py
 us_pkg/__init__.py
 us_pkg/test.py
+us_pkg/us_colorbox_node.py
 us_pkg/us_drawline_node.py
 us_pkg/us_receiver_node.py
