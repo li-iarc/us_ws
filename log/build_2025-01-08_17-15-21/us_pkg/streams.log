@@ -1,0 +1,25 @@
+[0.434s] Invoking command in '/home/li/ros2_us_ws/src/us_pkg': PYTHONPATH=/home/li/ros2_us_ws/build/us_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_us_ws/install/us_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/us_pkg build --build-base /home/li/ros2_us_ws/build/us_pkg/build install --record /home/li/ros2_us_ws/build/us_pkg/install.log --single-version-externally-managed install_data
+[0.589s] running egg_info
+[0.590s] writing ../../build/us_pkg/us_pkg.egg-info/PKG-INFO
+[0.590s] writing dependency_links to ../../build/us_pkg/us_pkg.egg-info/dependency_links.txt
+[0.590s] writing entry points to ../../build/us_pkg/us_pkg.egg-info/entry_points.txt
+[0.590s] writing requirements to ../../build/us_pkg/us_pkg.egg-info/requires.txt
+[0.590s] writing top-level names to ../../build/us_pkg/us_pkg.egg-info/top_level.txt
+[0.591s] reading manifest file '../../build/us_pkg/us_pkg.egg-info/SOURCES.txt'
+[0.591s] writing manifest file '../../build/us_pkg/us_pkg.egg-info/SOURCES.txt'
+[0.591s] running build
+[0.592s] running build_py
+[0.592s] copying us_pkg/us_drawline_node.py -> /home/li/ros2_us_ws/build/us_pkg/build/lib/us_pkg
+[0.592s] running install
+[0.592s] running install_lib
+[0.592s] copying /home/li/ros2_us_ws/build/us_pkg/build/lib/us_pkg/us_drawline_node.py -> /home/li/ros2_us_ws/install/us_pkg/lib/python3.10/site-packages/us_pkg
+[0.593s] byte-compiling /home/li/ros2_us_ws/install/us_pkg/lib/python3.10/site-packages/us_pkg/us_drawline_node.py to us_drawline_node.cpython-310.pyc
+[0.593s] running install_data
+[0.593s] running install_egg_info
+[0.595s] removing '/home/li/ros2_us_ws/install/us_pkg/lib/python3.10/site-packages/us_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.595s] Copying ../../build/us_pkg/us_pkg.egg-info to /home/li/ros2_us_ws/install/us_pkg/lib/python3.10/site-packages/us_pkg-0.0.0-py3.10.egg-info
+[0.595s] running install_scripts
+[0.608s] Installing us_drawline_node script to /home/li/ros2_us_ws/install/us_pkg/lib/us_pkg
+[0.608s] Installing us_receiver_node script to /home/li/ros2_us_ws/install/us_pkg/lib/us_pkg
+[0.608s] writing list of installed files to '/home/li/ros2_us_ws/build/us_pkg/install.log'
+[0.621s] Invoked command in '/home/li/ros2_us_ws/src/us_pkg' returned '0': PYTHONPATH=/home/li/ros2_us_ws/build/us_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_us_ws/install/us_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/us_pkg build --build-base /home/li/ros2_us_ws/build/us_pkg/build install --record /home/li/ros2_us_ws/build/us_pkg/install.log --single-version-externally-managed install_data
