@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/us_pkg8/us_pkg8.egg-info/PKG-INFO
+../../build/us_pkg8/us_pkg8.egg-info/SOURCES.txt
+../../build/us_pkg8/us_pkg8.egg-info/dependency_links.txt
+../../build/us_pkg8/us_pkg8.egg-info/entry_points.txt
+../../build/us_pkg8/us_pkg8.egg-info/requires.txt
+../../build/us_pkg8/us_pkg8.egg-info/top_level.txt
+../../build/us_pkg8/us_pkg8.egg-info/zip-safe
+resource/us_pkg8
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+us_pkg8/__init__.py
+us_pkg8/us_receiver_node.py
+us_pkg8/us_show_node.py
