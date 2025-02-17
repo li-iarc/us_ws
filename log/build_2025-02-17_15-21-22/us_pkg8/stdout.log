@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/us_pkg8/us_pkg8.egg-info/PKG-INFO
+writing dependency_links to ../../build/us_pkg8/us_pkg8.egg-info/dependency_links.txt
+writing entry points to ../../build/us_pkg8/us_pkg8.egg-info/entry_points.txt
+writing requirements to ../../build/us_pkg8/us_pkg8.egg-info/requires.txt
+writing top-level names to ../../build/us_pkg8/us_pkg8.egg-info/top_level.txt
+reading manifest file '../../build/us_pkg8/us_pkg8.egg-info/SOURCES.txt'
+writing manifest file '../../build/us_pkg8/us_pkg8.egg-info/SOURCES.txt'
+running build
+running build_py
+copying us_pkg8/us_uart_receiver_node.py -> /home/li/ros2_us_ws/build/us_pkg8/build/lib/us_pkg8
+copying us_pkg8/us_show_node.py -> /home/li/ros2_us_ws/build/us_pkg8/build/lib/us_pkg8
+running install
+running install_lib
+copying /home/li/ros2_us_ws/build/us_pkg8/build/lib/us_pkg8/us_uart_receiver_node.py -> /home/li/ros2_us_ws/install/us_pkg8/lib/python3.10/site-packages/us_pkg8
+copying /home/li/ros2_us_ws/build/us_pkg8/build/lib/us_pkg8/us_show_node.py -> /home/li/ros2_us_ws/install/us_pkg8/lib/python3.10/site-packages/us_pkg8
+byte-compiling /home/li/ros2_us_ws/install/us_pkg8/lib/python3.10/site-packages/us_pkg8/us_uart_receiver_node.py to us_uart_receiver_node.cpython-310.pyc
+byte-compiling /home/li/ros2_us_ws/install/us_pkg8/lib/python3.10/site-packages/us_pkg8/us_show_node.py to us_show_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/li/ros2_us_ws/install/us_pkg8/lib/python3.10/site-packages/us_pkg8-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/us_pkg8/us_pkg8.egg-info to /home/li/ros2_us_ws/install/us_pkg8/lib/python3.10/site-packages/us_pkg8-0.0.0-py3.10.egg-info
+running install_scripts
+Installing us_receiver_node script to /home/li/ros2_us_ws/install/us_pkg8/lib/us_pkg8
+Installing us_show_node script to /home/li/ros2_us_ws/install/us_pkg8/lib/us_pkg8
+Installing us_uart_receiver_node script to /home/li/ros2_us_ws/install/us_pkg8/lib/us_pkg8
+writing list of installed files to '/home/li/ros2_us_ws/build/us_pkg8/install.log'

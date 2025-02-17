@@ -13,5 +13,7 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 us_pkg8/__init__.py
+us_pkg8/us_modbus_receiver_node.py
 us_pkg8/us_receiver_node.py
 us_pkg8/us_show_node.py
+us_pkg8/us_uart_receiver_node.py

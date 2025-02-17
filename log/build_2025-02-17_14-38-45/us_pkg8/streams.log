@@ -1,0 +1,23 @@
+[0.672s] Invoking command in '/home/li/ros2_us_ws/src/us_pkg8': PYTHONPATH=/home/li/ros2_us_ws/build/us_pkg8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_us_ws/install/us_pkg8/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/us_pkg8 build --build-base /home/li/ros2_us_ws/build/us_pkg8/build install --record /home/li/ros2_us_ws/build/us_pkg8/install.log --single-version-externally-managed install_data
+[0.831s] running egg_info
+[0.832s] writing ../../build/us_pkg8/us_pkg8.egg-info/PKG-INFO
+[0.838s] writing dependency_links to ../../build/us_pkg8/us_pkg8.egg-info/dependency_links.txt
+[0.838s] writing entry points to ../../build/us_pkg8/us_pkg8.egg-info/entry_points.txt
+[0.838s] writing requirements to ../../build/us_pkg8/us_pkg8.egg-info/requires.txt
+[0.838s] writing top-level names to ../../build/us_pkg8/us_pkg8.egg-info/top_level.txt
+[0.840s] reading manifest file '../../build/us_pkg8/us_pkg8.egg-info/SOURCES.txt'
+[0.840s] writing manifest file '../../build/us_pkg8/us_pkg8.egg-info/SOURCES.txt'
+[0.840s] running build
+[0.840s] running build_py
+[0.841s] running install
+[0.841s] running install_lib
+[0.842s] running install_data
+[0.842s] running install_egg_info
+[0.843s] removing '/home/li/ros2_us_ws/install/us_pkg8/lib/python3.10/site-packages/us_pkg8-0.0.0-py3.10.egg-info' (and everything under it)
+[0.843s] Copying ../../build/us_pkg8/us_pkg8.egg-info to /home/li/ros2_us_ws/install/us_pkg8/lib/python3.10/site-packages/us_pkg8-0.0.0-py3.10.egg-info
+[0.844s] running install_scripts
+[0.860s] Installing us_receiver_node script to /home/li/ros2_us_ws/install/us_pkg8/lib/us_pkg8
+[0.860s] Installing us_show_node script to /home/li/ros2_us_ws/install/us_pkg8/lib/us_pkg8
+[0.860s] Installing us_uart_receiver_node script to /home/li/ros2_us_ws/install/us_pkg8/lib/us_pkg8
+[0.860s] writing list of installed files to '/home/li/ros2_us_ws/build/us_pkg8/install.log'
+[0.883s] Invoked command in '/home/li/ros2_us_ws/src/us_pkg8' returned '0': PYTHONPATH=/home/li/ros2_us_ws/build/us_pkg8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_us_ws/install/us_pkg8/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/us_pkg8 build --build-base /home/li/ros2_us_ws/build/us_pkg8/build install --record /home/li/ros2_us_ws/build/us_pkg8/install.log --single-version-externally-managed install_data
