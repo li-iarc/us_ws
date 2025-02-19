@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'us_receiver_node = us_pkg8.us_receiver_node:main',
             'us_modbus_receiver_node = us_pkg8.us_modbus_receiver_node:main',
+            'us_modbus_receiver_node2 = us_pkg8.us_modbus_receiver_node2:main',
             'us_uart_receiver_node = us_pkg8.us_uart_receiver_node:main',
             'us_show_node = us_pkg8.us_show_node:main',
         ],

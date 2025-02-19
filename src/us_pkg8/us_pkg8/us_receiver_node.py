@@ -1,3 +1,5 @@
+### 此為舊版程式,不使用crc驗證
+
 # 使用時若找不到板子,使用sudo apt purge brltty並重開機
 # 確認串口 ls /dev/ttyUSB* /dev/ttyACM*
 # 開啟對應權限sudo chmod 777 /dev/ttyUSB0

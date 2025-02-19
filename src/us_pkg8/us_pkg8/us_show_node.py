@@ -7,10 +7,10 @@ class UltrasonicVisualizer(Node):
     def __init__(self):
         super().__init__('ultrasonic_visualizer')
         
-        # 訂閱 ultrasonic_data 話題
+        # 訂閱 sensor_data_1 話題
         self.subscription = self.create_subscription(
             Int16MultiArray,
-            'ultrasonic_data',
+            'sensor_data_1',
             self.listener_callback,
             10)
         

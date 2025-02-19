@@ -1,3 +1,5 @@
+### 此程式為同時使用兩個modbus轉接盒時使用,僅差在port
+
 # 使用時若找不到板子,使用sudo apt purge brltty並重開機
 # 確認串口 ls /dev/ttyUSB* /dev/ttyACM*
 # 開啟對應權限sudo chmod 777 /dev/ttyUSB0
@@ -20,7 +22,7 @@ class UltrasonicReceiver(Node):
         port = self.get_parameter('port').value
         baudrate = self.get_parameter('baudrate').value
         
-        self.publisher_ = self.create_publisher(Int16MultiArray, 'ultrasonic_data_1', 10)
+        self.publisher_ = self.create_publisher(Int16MultiArray, 'ultrasonic_data_2', 10)
         self.serial_port = serial.Serial(port, baudrate, timeout=0.1)
 
         self.timer = self.create_timer(0.1, self.read_serial_data)  # 10Hz 讀取頻率
